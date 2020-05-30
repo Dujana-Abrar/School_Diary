@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -7,7 +8,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <androidx.constraintlayout.widget.ConstraintLayout
-            xmlns:tools="http://schemas.android.com/tools"
             android:id="@+id/clayout2"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -21,6 +21,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="8dp"
+                android:fontFamily="@font/montserrat_bold"
                 android:paddingStart="40dp"
                 android:paddingTop="16dp"
                 android:paddingEnd="40dp"
@@ -41,6 +42,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
+                android:fontFamily="@font/montserrat"
                 android:text="Don't have an account? Sign Up"
                 android:textColor="@color/colorBlack"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -82,6 +84,7 @@
                         android:id="@+id/subIdEditText_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
                         android:inputType="textPassword"
                         android:maxLines="1"
                         android:minLines="1" />
@@ -108,6 +111,7 @@
                         android:id="@+id/subIdEditText_email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
                         android:inputType="textEmailAddress"
                         android:maxLines="1"
                         android:minLines="1" />
@@ -122,6 +126,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
+                android:fontFamily="@font/montserrat_bold"
                 android:text="Powered by Corteri"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -148,6 +153,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="32dp"
                     android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/montserrat_bold"
                     android:text="Welcome!"
                     android:textColor="#FFFFFF"
                     android:textSize="52sp"
@@ -165,6 +171,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="32dp"
+                    android:fontFamily="@font/montserrat_bold"
                     android:text="To the digital learning"
                     android:textColor="#FFFFFF"
                     android:textSize="24sp"
