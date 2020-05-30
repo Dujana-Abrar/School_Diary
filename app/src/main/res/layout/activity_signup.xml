@@ -88,7 +88,7 @@
                         android:id="@+id/subIdEditText_nameFirst"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="sans-serif"
                         android:inputType="text"
                         android:maxLines="1"
                         android:minLines="1" />
@@ -116,7 +116,7 @@
                         android:id="@+id/subIdEditText_nameLast"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="sans-serif"
                         android:inputType="text"
                         android:maxLines="1"
                         android:minLines="1" />
@@ -144,7 +144,7 @@
                         android:id="@+id/subIdEditText_phone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="sans-serif"
                         android:inputType="text"
                         android:maxLines="1"
                         android:minLines="1" />
@@ -171,7 +171,7 @@
                         android:id="@+id/subIdEditText_emailRegister"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="sans-serif"
                         android:inputType="textEmailAddress"
                         android:maxLines="1"
                         android:minLines="1" />
@@ -198,7 +198,7 @@
                         android:id="@+id/subIdEditText_passwordRegister"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
+                        android:fontFamily="sans-serif"
                         android:inputType="textPassword"
                         android:maxLines="1"
                         android:minLines="1" />
@@ -243,7 +243,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="32dp"
                     android:layout_marginEnd="16dp"
-                    android:fontFamily="@font/montserrat_bold"
+                    android:fontFamily="sans-serif"
                     android:text="Register!"
                     android:textColor="#FFFFFF"
                     android:textSize="52sp"
@@ -261,7 +261,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="16dp"
-                    android:fontFamily="@font/montserrat_bold"
+                    android:fontFamily="sans-serif"
                     android:text="Welcome on board!"
                     android:textColor="#FFFFFF"
                     android:textSize="24sp"
