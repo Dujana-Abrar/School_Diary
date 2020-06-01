@@ -30,7 +30,7 @@ public class SignUpActivity extends AppCompatActivity {
         textView_signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
+                Intent intent = new Intent(SignUpActivity.this, cardviewDiscussion.class);
                 startActivity(intent);
                 finish();
             }

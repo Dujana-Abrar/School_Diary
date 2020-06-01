@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".cardviewChapter"></activity>
+        <activity android:name=".cardviewDiscussion"></activity>
+        <activity android:name=".cardviewChapter" />
         <activity android:name=".Announcement" />
         <activity android:name=".Notification" />
         <activity android:name=".cardviewLecture" />
