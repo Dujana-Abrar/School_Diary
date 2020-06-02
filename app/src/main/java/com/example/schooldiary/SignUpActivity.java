@@ -30,7 +30,7 @@ public class SignUpActivity extends AppCompatActivity {
         textView_signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SignUpActivity.this, Upload.class);
+                Intent intent = new Intent(SignUpActivity.this, Dashboard.class);
                 startActivity(intent);
                 finish();
             }
